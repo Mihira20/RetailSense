@@ -1,0 +1,17 @@
+pandas
+polars
+numpy
+scikit-learn
+statsmodels
+prophet
+lightgbm
+ydata-profiling
+matplotlib
+seaborn
+langchain
+langchain-groq
+tavily-python
+mlflow
+streamlit
+python-dotenv
+jupyter
