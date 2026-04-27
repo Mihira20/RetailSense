@@ -20,7 +20,7 @@ LightGBM won on both metrics, validated with 5-fold time series cross validation
 
 ---
 
-## The LLM Experiment — What We Tried and Why It Failed
+## The LLM Experiment - What We Tried and Why It Failed
 
 The core hypothesis: *news headlines contain demand signals that structured data misses.* A hurricane causes panic buying. An economic shock suppresses spending. A viral trend spikes demand overnight. None of this appears in historical sales data.
 
