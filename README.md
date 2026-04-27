@@ -32,7 +32,7 @@ We built an LLM agent (Groq/Llama 3 + Tavily search) that:
 
 **Why it failed:** Tavily returns live/recent news, not 2010-2012 archives. Correlating 2022 news sentiment with 2012 sales is meaningless. Additionally, the LLM outputs coarse discrete values (-0.2, -0.1, 0.1, 0.2) that lack the granularity needed to capture sales variance. Correlation analysis confirmed this: r=0.04.
 
-**The deeper finding:** Feature importance analysis showed department identity (score: 7,316) dominates all other signals. Structural factors — what you're selling, store size, location — matter far more than temporal or external signals. This explains why even holiday flags scored near zero in importance.
+**The deeper finding:** Feature importance analysis showed department identity (score: 7,316) dominates all other signals. Structural factors, what you're selling, store size, and location matter far more than temporal or external signals. This explains why even holiday flags scored near zero in importance.
 
 ---
 
