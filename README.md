@@ -24,7 +24,7 @@ LightGBM won on both metrics, validated with 5-fold time series cross validation
 
 The core hypothesis: *news headlines contain demand signals that structured data misses.* A hurricane causes panic buying. An economic shock suppresses spending. A viral trend spikes demand overnight. None of this appears in historical sales data.
 
-We built an LLM agent (Groq/Llama 3 + Tavily search) that:
+I built an LLM agent (Groq/Llama 3 + Tavily search) that:
 1. Takes a date + product category as input
 2. Searches for relevant news headlines
 3. Outputs a structured demand signal: `{"demand_boost": 0.15, "reason": "..."}`
